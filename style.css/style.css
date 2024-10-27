@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+.nav {
+    width: 1170px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav_bar {
+    width: 633px;
+    height: 40px;
+    display: flex;
+    gap: 60px;
+}
+
+.logo {
+    width: 150px;
+    height: 40px;
+}
+
+.link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+.link h2 {
+    color: rgba(15, 15, 15, 1);
+    font-weight: 600;
+    font-size: 36px;
+}
+
+ul {
+    list-style: none;
+    width: 423px;
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    width: 103px;
+    text-align: center;
+    border-left: 1px solid rgba(232, 232, 233, 1);
+}
+
+ul li:first-child {
+    border: none;
+}
+
+ul li a {
+    color: rgba(15, 15, 15, 1);
+    font-weight: 500;
+    font-size: 16px;
+    width: 79px;
+}
+
+.nav_btn button {
+    width: 156px;
+    height: 48px;
+    background: rgba(17, 121, 252, 1);
+    border: none;
+    border-radius: 50px;
+}
+
+.nav_btn button a {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.container {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main {
+    width: 100%;
+    height: 663px;
+    background: linear-gradient(180.16deg, rgba(17, 121, 252, 0.12) -13.26%, rgba(255, 255, 255, 0) 81.35%);
+}
+
+.main_box {
+    width: 852px;
+    height: 594px;
+    padding-top: 70px;
+}
+
+.main_info {
+    width: 852px;
+    height: 204px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main_info h3 {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.main_info h1 {
+    color: rgba(15, 15, 15, 1);
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.main_info p {
+    color: rgba(58, 59, 62, 1);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.main_contacts {
+    width: 870px;
+    height: 290px;
+    margin-top: 70px;
+}
+
+.our_contact {
+    width: 870px;
+    height: 133px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call {
+    width: 420px;
+    height: 133px;
+    box-shadow: 0px 12px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 1);
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.call i {
+    color: rgba(17, 121, 252, 1);
+    font-size: 33px;
+    width: 33px;
+}
+
+.text {
+    width: 230px;
+    height: 78px;
+    margin-top: 27px;
+}
+
+.text h3 {
+    color: rgba(15, 15, 15, 1);
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.text a {
+    color: rgba(79, 81, 83, 1);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.email {
+    width: 420px;
+    height: 133px;
+    box-shadow: 0px 12px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 1);
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.email i {
+    color: rgba(17, 121, 252, 1);
+    font-size: 33px;
+    width: 33px;
+}
+
+.location {
+    width: 870px;
+    height: 133px;
+    box-shadow: 0px 12px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 1);
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    margin-top: 24px;
+}
+
+.location i {
+    color: rgba(17, 121, 252, 1);
+    font-size: 33px;
+    width: 33px;
+    margin-left: 52px;
+}
+
+.l_text h3 {
+    color: rgba(15, 15, 15, 1);
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.l_text a {
+    color: rgba(79, 81, 83, 1);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+footer {
+    width: 100%;
+    height: 439px;
+    background: rgba(15, 15, 15, 1);
+    background-image: url(../img/footer\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer_text{
+    width: 830px;
+    height: 164px;
+    text-align: center;
+    padding-top: 200px;
+}
+.footer_text h2{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 48px;
+}
+.footer_text button{
+    width: 202px;
+    height: 56px;
+    background: rgba(17, 121, 252, 1);
+    border-radius: 7px;
+    border: none;
+}
+.footer_text button a{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 16px;
+}
